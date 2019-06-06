@@ -1,5 +1,5 @@
 var topics = ["Game of Thrones", "Black Mirror", "The Crown", "House of card", "13 Reasons Why", "Stranger Things",
-    "Ozark", "La Casa de Papel", "Narcos", "Mindhunter", "Suburra"];
+    "Ozark", "La Casa de Papel", "Narcos", "Mindhunter", "Suburra", "Lucifer", "Umbrella Academy", "Orange is the New Black", "The OA", "Daredevil"];
 
 
 for (var i = 0; i < topics.length; i++) {
@@ -10,6 +10,7 @@ for (var i = 0; i < topics.length; i++) {
     $("#buttons").append(gifButton);
 }
 
+function gifsDisplay(){
 $("button").on("click", function () {
     var series = $(this).text()
 
@@ -54,13 +55,15 @@ $("button").on("click", function () {
         }
     })
 });
+}
+
+gifsDisplay()
 
 function renderButtons() {
     $("#buttons").empty();
     for (var i = 0; i < topics.length; i++) {
         var newButton = $("<button>");
-        newButton.addClass("btn btn-danger")
-        newButton.addClass("series-btn");
+        newButton.addClass("btn btn-danger series-btn")
         newButton.attr("data-name", topics[i]);
         newButton.text(topics[i]);
         $("#buttons").append(newButton);
@@ -73,11 +76,5 @@ $("#add-series").on("click", function (event) {
     topics.push(newSeries);
 
     renderButtons();
+    gifsDisplay()
 });
-
-
-
-
-
-
-

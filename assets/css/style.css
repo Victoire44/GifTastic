@@ -10,6 +10,7 @@ body{
 .jumbotron {
   background-color: rgb(242, 242, 242);
   padding: 0;
+  margin-bottom: 60px;
 }
 
 img {
@@ -30,6 +31,12 @@ button {
   padding: 10px;
 }
 
+#buttons{
+  border: 1px red solid;
+  border-radius: 10px;
+  margin: 0 100px;
+}
+
 #gifs-appear-here {
   display: flex;
   justify-content: space-around;
@@ -37,3 +44,12 @@ button {
   margin: 50px 100px;
 }
 
+.form-group{
+  margin: 50px 100px;
+}
+
+#buttons{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
