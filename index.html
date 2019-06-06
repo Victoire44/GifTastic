@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>GifTastic</title>
 </head>
@@ -19,20 +20,34 @@
             <img src="assets/images/netflix.png">
         </div>
     </div>
-    <div id="buttons">
-        <!-- <button type="button"></button> -->
-        <!-- <button type="button" class="btn btn-light" data-series="blackMirror">Black Mirror</button>
-        <button type="button" class="btn btn-light" data-series="theCrown">The Crown</button>
-        <button type="button" class="btn btn-light" data-series="houseOfCards">House of cards</button>
-        <button type="button" class="btn btn-light" data-series="13ReasonsWhy">13 Reasons Why</button>
-        <button type="button" class="btn btn-light" data-series="strangerThings">Stranger Things</button>
-        <button type="button" class="btn btn-light" data-series="you">You</button>
-        <button type="button" class="btn btn-light" data-series="casaDePapel">Casa de Papel</button>
+    <div id="main">
+        <form id="series-form">
+            <label for="series-input">Add a series</label>
+            <input type="text" id="series-input">
+            <input id="add-series" type="submit" value="Submit">
+        </form>
+ 
+        <div id="buttons"></div>
+       
+        <div id="container-gifs">
+            <div id="gifs-appear-here"></div>
+        </div>
+    </div>
 
-    </div> -->
-    </div>
-    <div id="gifs-appear-here"></div>
-    </div>
+
+
+
+
+
+    <footer class="navbar navbar-expand-lg sticky-bottom fixed-bottom p-3"
+        style="background:rgb(242, 242, 242); font-size: 15px">
+        <div class="container justify-content-center">
+            <p>Copyright © 2019 - Victoire Baron</p>
+        </div>
+        </class>
+        </div>
+    </footer>
+
 
 
     <script type="text/javascript" src="assets/javascript/giphy.js"></script>
