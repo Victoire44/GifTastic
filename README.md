@@ -1,17 +1,18 @@
 # GifTastic
-![Site Screenshot]()
+![Site Screenshot](assets/images/screenShot.png)
 
 
 ## Quick start
 Open [index](https://victoire44.github.io/gitTastic) in your browser.
 
 ## Presentation
-The purpose of this assignment is to create a page that offers many gifs about series of Netflix.<br>
-I use for that the Giphy API.  
+The purpose of this assignment is to create a page that offers many gifs about Netflix series.<br>
+I use for that the [Giphy API](https://developers.giphy.com/).  
+
 <br>
-When you click on a button with the name of a series, 10 gifs in reference to the series are display. To animate the gif, you have to click on the image, and you have to do the same thing if you want to stop it. 
+When you click on a button with the name of a series, 10 gifs in reference to the series are display. To animate the gif, you have to click on the image, and you have to click on again if you want to stop it. 
 <br>
-If you want, you can add your own series title bt writing in the input. Then, you submit and a new button displays next to others. 
+You can add your own series title by writing in the input. Then, you submit and a new button displays next to others. Click on to see the gifs.  
 
 ## Technologies Used
 

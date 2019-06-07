@@ -39,7 +39,7 @@ button {
 
 #gifs-appear-here {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 50px 100px;
 }
