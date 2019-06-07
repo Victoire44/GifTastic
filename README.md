@@ -3,7 +3,7 @@
 
 
 ## Quick start
-Open [index](https://victoire44.github.io/gitTastic) in your browser.
+Open [index](https://victoire44.github.io/GifTastic/) in your browser.
 
 ## Presentation
 The purpose of this assignment is to create a page that offers many gifs about Netflix series.<br>

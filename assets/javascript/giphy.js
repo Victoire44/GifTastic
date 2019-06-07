@@ -22,6 +22,7 @@ $("button").on("click", function () {
         method: "GET"
     }).then(function (response) {
         var results = response.data;
+        $("#gifs-appear-here").empty();
         for (var i = 0; i < results.length; i++) {
             var seriesDiv = $("<div>");
             var p = $("<p>").text("Rating: " + results[i].rating);
@@ -39,7 +40,7 @@ $("button").on("click", function () {
             seriesDiv.append(p);
             seriesDiv.append(seriesImage);
 
-            $("#gifs-appear-here").prepend(seriesDiv);
+            $("#gifs-appear-here").append(seriesDiv);
 
             seriesImage.on("click", function () {
                 var state = $(this).attr("data-state")
