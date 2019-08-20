@@ -2,17 +2,17 @@
 ![Site Screenshot](assets/images/screenShot.png)
 
 
-## Quick start
+## Usage
 Open [index](https://victoire44.github.io/GifTastic/) in your browser.
 
 ## Presentation
-The purpose of this assignment is to create a page that offers many gifs about Netflix series.<br>
-I use for that the [Giphy API](https://developers.giphy.com/).  
 
+Dynamic web page on Netflix Series:
+When the user clicks on a button, the page grab 10 static, non-animated gif images from the [Giphy API](https://developers.giphy.com/).
 <br>
-When you click on a button with the name of a series, 10 gifs in reference to the series are display. To animate the gif, you have to click on the image, and you have to click on again if you want to stop it. 
+When the user clicks one of the still GIPHY images, the gif animates. If the user clicks the gif again, it stops playing.
 <br>
-You can add your own series title by writing in the input. Then, you submit and a new button displays next to others. Click on to see the gifs.  
+The user can add series title by writing in the input. Click on the button to see gifs!
 
 ## Technologies Used
 
