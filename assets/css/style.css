@@ -1,10 +1,7 @@
 body {
-  background: "black";
+  background-color: #000;
   margin: 0;
-}
-
-body{
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
 }
 
 .jumbotron {
@@ -17,13 +14,14 @@ img {
   height: 150px;
 }
 
-.container, img{
+.container,
+img {
   display: flex;
   justify-content: center;
 }
 
-label{
-  color: white; 
+label {
+  color: white;
 }
 
 button {
@@ -31,7 +29,7 @@ button {
   padding: 10px;
 }
 
-#buttons{
+#buttons {
   border: 1px red solid;
   border-radius: 10px;
   margin: 0 100px;
@@ -39,17 +37,32 @@ button {
 
 #gifs-appear-here {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: 50px 100px;
 }
 
-.form-group{
+.form-group {
   margin: 50px 100px;
 }
 
-#buttons{
+#buttons {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  #buttons {
+    margin: 0 15px;
+  }
+  .form-group {
+    margin: 50px 30px;
+  }
+  .form-inline {
+    justify-content: center;
+  }
+  #add-series {
+    margin: 20px 0
+  }
 }
